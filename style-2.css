@@ -1,0 +1,100 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+/* --------------------------------
+    common styles and utilaties
+-------------------------------- */
+body{
+    font-family: 'Ibarra Real Nova', serif;
+}
+.index{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 100px;
+    margin: 87px;
+}
+.top-banner{
+    font-weight: 700;
+    font-size: 22px;
+}
+.seccond-part{
+    font-weight: 400;
+    font-size: 16px;
+}
+button{
+     color: white;
+    width: 187px;
+    height: 56px;
+    left: 222px;
+    top: 529px;
+    background: #DD0000;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.blue{
+    display: flex;
+}
+.green{
+    width: 190px;
+    height: 180px;
+    background-color: black;
+    margin: 70px;
+    padding:30px;
+    border-radius:15px;
+}
+.red{
+    background-color: azure;
+    color: black;
+    font-size:16px;
+    font-weight: bolder;
+}
+.tree{
+    text-align: center;
+    width: 250px;
+    left: 300px;
+}
+.six{
+    display: flex;
+}
+.two{
+    font-weight: bolder;
+}
+.h3{
+    font-weight: bold;
+}
+.ma{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    grid-row-gap: 15px;
+}
+.dad{
+    display: block;
+}
+
+/*-----------------------
+     Footers styles
+---------------------- */
+footer{
+    position: absolute;
+    width: 1500px;
+    height: 244px;
+    left: 0px;
+    top: 1500px;
+    background: #161616;
+    justify-content: space-around;
+    color: white;
+
+}
+.me{
+    text-align: center;
+    font-size:35px;
+}
+.white{
+    padding-top: 50px;
+    color: white;
+}

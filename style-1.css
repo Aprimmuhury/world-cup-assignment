@@ -1,0 +1,134 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+/* --------------------------------
+    common styles and utilaties
+-------------------------------- */
+body{
+    font-family: 'Ibarra Real Nova', serif;
+}
+.index{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 100px;
+    margin: 87px;
+}
+.top-banner{
+    font-weight: 700;
+    font-size: 22px;
+}
+.seccond-part{
+    font-weight: 400;
+    font-size: 16px;
+}
+button{
+     color: white;
+    width: 187px;
+    height: 56px;
+    left: 222px;
+    top: 529px;
+    background: #DD0000;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.green{
+    width: 190px;
+    height: 180px;
+    background-color: black;
+    margin: 70px;
+    padding:30px;
+    border-radius:15px;
+}
+.red{
+    background-color: azure;
+    color: black;
+    font-size:16px;
+    font-weight: bolder;
+}
+.blue{
+    display:flex;
+}
+.inline{
+    justify-content: space-around;
+}
+.player{
+    display:flex;
+}
+.play{
+    display: flex;
+    height: 300px;
+    width: 312px;
+}
+.dhrubo{
+    display:flex;
+    grid-row-gap:370px;
+}
+.ma{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.aria{
+    margin: 5px;
+    padding-right: 6px;
+}
+/* ----------------------
+     footers styles
+---------------------- */
+footer{
+    position: absolute;
+    width: 1500px;
+    height: 244px;
+    left: 0px;
+    top: 1500px;
+    background:black;
+    justify-content: space-around;
+    color:red;
+
+}
+.me{
+    text-align: center;
+    font-size:35px;
+}
+.white{
+    padding-top: 50px;
+    color: white;
+}
+/*------------------  
+   Media Quaries 
+------------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:400px) {
+    .index{
+    width: 334px;
+    height: 672px;
+    left: 5px;
+    top: 44px;
+    border-radius: 30px;
+    display: block;
+    }
+    .blue{
+        display: block;
+        left: 3px;
+    } 
+    .player{
+        display: block;
+        left: 3px;
+    }
+    .play{
+        display:block;
+    }
+    footer{
+        width: 640px;
+        top: 3900px;
+        text-align: center;
+    }
+    .white{
+        display: flexbox;
+        padding-right: 25px;
+    }
+}
